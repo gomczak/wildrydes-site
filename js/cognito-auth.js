@@ -118,7 +118,7 @@ var WildRydes = window.WildRydes || {};
         var email = $('#emailInputSignin').val();
         var password = $('#passwordInputSignin').val();
         event.preventDefault();
-        signin(email, password, options: {authFlowType: 'USER_PASSWORD_AUTH'},
+        signin(email, password,
             function signinSuccess() {
                 console.log('Successfully Logged In');
                 window.location.href = 'ride.html';
